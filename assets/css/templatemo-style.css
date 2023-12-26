@@ -1,4 +1,6 @@
 /*
+
+
 */
 
 @import url(fontawesome.css);
@@ -215,6 +217,17 @@ html {
 }
 
 .menu {
+    /* Keyword values */
+-webkit-overflow-scrolling: auto;
+-webkit-overflow-scrolling: touch;
+
+/* Global values */
+-webkit-overflow-scrolling: inherit;
+-webkit-overflow-scrolling: initial;
+-webkit-overflow-scrolling: revert;
+-webkit-overflow-scrolling: revert-layer;
+-webkit-overflow-scrolling: unset;
+
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
