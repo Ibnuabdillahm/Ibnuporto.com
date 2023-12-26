@@ -225,7 +225,7 @@ html {
   -webkit-overflow-scrolling: touch;
   background-color: #008a0b;
   box-sizing: border-box;
-  height: 100vh;  
+  height: 100%;  
   max-height: 100vh !important;
   max-width: 80vw !important;
   min-width: 45px !important;
